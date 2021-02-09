@@ -110,7 +110,8 @@ class FreeNom
                 'username' => $this->username,
                 'password' => $this->password
             ],
-            'cookies' => $this->jar
+            'cookies' => $this->jar,
+            'timeout' => 60
         ]);
     }
 
